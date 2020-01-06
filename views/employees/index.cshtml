@@ -1,15 +1,15 @@
 @model IEnumerable<RR2_MVC_10152019.Models.Employee>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "LIST - ";
 }
 
-<h2>Index</h2>
+<h2>EMPLOYEE LIST</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("CREATE NEW", "Create")
 </p>
-<table class="table">
+<table class="table table-responsive">
     <tr>
         <th>
             @Html.DisplayNameFor(model => model.FirstName)
